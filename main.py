@@ -8,6 +8,7 @@ BLUE = (0, 0, 255)
 YELLOW = (255, 255, 0)
 GRAY = (128, 128, 128)
 OLIVE = (128, 128, 0)
+git = True
 
 pygame.init()
 screen = pygame.display.set_mode((800, 600))
