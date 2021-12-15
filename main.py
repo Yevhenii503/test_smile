@@ -26,6 +26,7 @@ while run:
     pygame.draw.ellipse(screen, BLACK, ((300, 180), (50, 100)))
     pygame.draw.ellipse(screen, BLACK, ((450, 180), (50, 100)))
     pygame.draw.arc(screen, BLACK, (275, 220, 250, 210), 3.3, -0.1, 15)
+    pygame.draw.line(screen, BLACK, (50, 50), (400, 50), 10)
     pygame.display.flip()
 
 
